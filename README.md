@@ -12,7 +12,8 @@ Our team comprises:
 - Maheshi
 - Nima Chinikar
 - Sam Celarek
-- Tony Lau (Team Lead and TA)
+- Tony Lau
+- Gem Ruby (Team Lead and TA)
 
 In this project, we will be working with Google to develop a digital solution that will help them better...
 
