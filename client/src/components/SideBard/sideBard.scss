@@ -1,0 +1,97 @@
+.sidebard {
+    background-color: black;
+    color: rgb(165, 165, 165);
+
+    &__outer-container {
+        background-color: rgb(56, 56, 56);
+        height: 100%;
+        width: 23rem;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: right;
+        position: fixed;
+        padding: 1.25rem;
+        box-sizing: border-box;
+    }
+
+    &__inner-container {
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 1vmax;
+        padding: 1rem;
+        // height: 95%;
+    }
+
+    &__heading {
+        font-size: 2rem;
+        display: flex;
+        padding-top: 1rem;
+        width: 40%;
+    }
+
+    &__text--white {
+        color: white;
+    }
+
+    &__subheading {
+        font-size: 1.3rem;
+    }
+
+    &__age-range-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 0.6rem;
+    }
+
+    &__age-range-button {
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 45px;
+        padding: 0.5rem;
+        color: white;
+
+        &--active {
+            background-color: rgb(165, 165, 165);
+        }
+    }
+
+    &__know-ai {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    &__know-ai-radio-button {
+        display: none;
+
+        &:checked + &__circle {
+            border-color: rgb(56, 56, 56);
+            background: rgb(165, 165, 165);
+        } 
+
+        &__circle {
+            display: inline-block;
+            width: 13px;
+            height: 13px;
+            box-shadow: 0 0 0 1px rgb(165, 165, 165); 
+            border-radius: 50%;
+            margin-right: 0.8rem;
+            border: 1px solid transparent;
+        }
+    }
+
+    &__continue-button button {
+        display: block;
+        margin: 5rem auto;
+        background-color: rgb(125, 171, 220);
+        border-radius: 1vmax;
+        color: rgb(56, 56, 56);
+        text-align: center;
+        width: 10rem;
+        height: 5rem;
+        font-size: 24px;
+    }
+  }
+
