@@ -9,17 +9,26 @@ let form = document.querySelector("form")
 
 let personName = ""
 
-form.addEventListener("submit", (e) => {
-    clearPage()
-    e.preventDefault()
-    personName = e.target.name.value
-    document.getElementById("name").innerHTML = personName
+function clearPage() {
+    document.getElementById("name").innerHTML = ""
+    document.getElementById("age").innerHTML = ""
+    document.getElementById("gender").innerHTML = ""
+    document.getElementById("nationality").innerHTML = ""
+}
 
-    let countries = ""
+  return (
+    <div className="App">
+        <h1>Ask Google Assistant</h1>
+        <form onSubmit={(e)=>{clearPage()
+          e.preventDefault()
+          personName = e.target.name.value
+          document.getElementById("name").innerHTML = personName
 
-    axios.get(`https://api.agify.io?name=${personName}`).then((r) => {
-        document.getElementById("age").innerHTML = r.data.age
-        return axios.get(`https://api.genderize.io?name=${personName}`)
+          let countries = ""
+
+          axios.get(`https://api.agify.io?name=${personName}`).then((r) => {
+          document.getElementById("age").innerHTML = r.data.age
+          return axios.get(`https://api.genderize.io?name=${personName}`)
     })
     .then((r) => {
         document.getElementById("gender").innerHTML = r.data.gender
@@ -57,103 +66,93 @@ form.addEventListener("submit", (e) => {
               }
             )
 
-    }).then((r) => {
+        }).then((r) => {
 
-        document.getElementById("restaurants").innerHTML = r.data.choices[0].text
+            document.getElementById("restaurants").innerHTML = r.data.choices[0].text
 
-        return axios.post(
-            'https://api.openai.com/v1/completions',
-            {
-              prompt: `You are a ${document.getElementById("age").innerText}-year-old ${document.getElementById("gender").innerText} named ${document.getElementById("name").innerText}. Based on the following probabilities of potential nationalities: ${document.getElementById("nationality").innerText}, I recommend movies that cater to diverse genres and preferences. Please suggest some movies that cater to said age gender and ethnicity and can provide an enjoyable viewing experience for someone with your profile. For each movie give a short explanation as to why[Keep the response concise, limiting it to a maximum of 30 words.]`,
-              model: 'text-davinci-003',
-              max_tokens: 100,
-              temperature: 0.7,
-              n: 1,
-              stop: null
-            }, {
-                headers: {
-                  'Content-Type': 'application/json',
-                  'Authorization': `Bearer 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`
-                }
-              }
-            )
-    })
-    .then((r) => {
-        document.getElementById("movies").innerHTML = r.data.choices[0].text
-        return axios.post(
-            'https://api.openai.com/v1/completions',
-            {
-              prompt: `You are a ${document.getElementById("age").innerText}-year-old ${document.getElementById("gender").innerText} named ${document.getElementById("name").innerText} with the following probabilities of potential nationalities: ${document.getElementById("nationality").innerText}, recommend products that cater to your age, gender and nationalities. Please name specific products and explain how they relate to said person. You live in toronto, ON, so also list where in toronto you can buy it[Keep the response concise, limiting it to a maximum of 30 words.]`,
-              model: 'text-davinci-003',
-              max_tokens: 100,
-              temperature: 0.7,
-              n: 1,
-              stop: null
-            }, {
-                headers: {
-                  'Content-Type': 'application/json',
-                  'Authorization': `Bearer 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`
-                }
-              }
-            )
-    })
-    .then((r) => {
-        document.getElementById("products").innerHTML = r.data.choices[0].text
-    })
-    .catch (e => {
-        console.log(e)
-    })
-    console.log(document.getElementById("name").innerText)
-})
-function clearPage() {
-    document.getElementById("name").innerHTML = ""
-    document.getElementById("age").innerHTML = ""
-    document.getElementById("gender").innerHTML = ""
-    document.getElementById("nationality").innerHTML = ""
-}
+            return axios.post(
+                'https://api.openai.com/v1/completions',
+                {
+                  prompt: `You are a ${document.getElementById("age").innerText}-year-old ${document.getElementById("gender").innerText} named ${document.getElementById("name").innerText}. Based on the following probabilities of potential nationalities: ${document.getElementById("nationality").innerText}, I recommend movies that cater to diverse genres and preferences. Please suggest some movies that cater to said age gender and ethnicity and can provide an enjoyable viewing experience for someone with your profile. For each movie give a short explanation as to why[Keep the response concise, limiting it to a maximum of 30 words.]`,
+                  model: 'text-davinci-003',
+                  max_tokens: 100,
+                  temperature: 0.7,
+                  n: 1,
+                  stop: null
+                }, {
+                    headers: {
+                      'Content-Type': 'application/json',
+                      'Authorization': `Bearer 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`
+                    }
+                  }
+                )
+        })
+        .then((r) => {
+            document.getElementById("movies").innerHTML = r.data.choices[0].text
+            return axios.post(
+                'https://api.openai.com/v1/completions',
+                {
+                  prompt: `You are a ${document.getElementById("age").innerText}-year-old ${document.getElementById("gender").innerText} named ${document.getElementById("name").innerText} with the following probabilities of potential nationalities: ${document.getElementById("nationality").innerText}, recommend products that cater to your age, gender and nationalities. Please name specific products and explain how they relate to said person. You live in toronto, ON, so also list where in toronto you can buy it[Keep the response concise, limiting it to a maximum of 30 words.]`,
+                  model: 'text-davinci-003',
+                  max_tokens: 100,
+                  temperature: 0.7,
+                  n: 1,
+                  stop: null
+                }, {
+                    headers: {
+                      'Content-Type': 'application/json',
+                      'Authorization': `Bearer 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`
+                    }
+                  }
+                )
+        })
+        .then((r) => {
+            document.getElementById("products").innerHTML = r.data.choices[0].text
+        })
+        .catch (e => {
+            console.log(e)
+        })
+        console.log(document.getElementById("name").innerText)}
 
-  return (
-    <div className="App">
-      <body>
-          <h1>Ask Google Assistant</h1>
-          <form>
-              <label>Enter Your Name:
-                <input name="name" type="text" />
-              </label>
-              <button type="submit">Lets go</button>
-          </form>
-          <section>
-              <div>
-                  <h2>Name: </h2>
-                  <p id="name"></p>
-              </div>
-              <div>
-                  <h2>Age: </h2>
-                  <p id="age"></p>
-              </div>
-              <div>
-                  <h2>Gender: </h2>
-                  <p id="gender"></p>
-              </div>
-              <div>
-                  <h2>Nationality: </h2>
-                  <ul id="nationality">
-                  </ul>
-              </div>
-              <div>
-                  <h2>Restaurant Recommendations In Toronto</h2>
-                  <p id="restaurants"></p>
-              </div>
-              <div>
-                  <h2>Movie Recommendations</h2>
-                  <p id="movies"></p>
-              </div>
-              <div>
-                  <h2>Product Recommendations</h2>
-                  <p id="products"></p>
-              </div>
+
+        }
+          >
+            <label>Enter Your Name:
+              <input name="name" type="text" />
+            </label>
+            <button type="submit">Lets go</button>
+        </form>
+        <section>
+            <div>
+                <h2>Name: </h2>
+                <p id="name"></p>
+            </div>
+            <div>
+                <h2>Age: </h2>
+                <p id="age"></p>
+            </div>
+            <div>
+                <h2>Gender: </h2>
+                <p id="gender"></p>
+            </div>
+            <div>
+                <h2>Nationality: </h2>
+                <ul id="nationality">
+                </ul>
+            </div>
+            <div>
+                <h2>Restaurant Recommendations In Toronto</h2>
+                <p id="restaurants"></p>
+            </div>
+            <div>
+                <h2>Movie Recommendations</h2>
+                <p id="movies"></p>
+            </div>
+            <div>
+                <h2>Product Recommendations</h2>
+                <p id="products"></p>
+            </div>
           </section>
-      </body>
     </div>
   );
 }
