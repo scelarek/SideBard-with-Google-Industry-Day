@@ -1,0 +1,103 @@
+.sidebard {
+    background-color: black;
+    color: #80868A;
+    position: absolute;
+    right: 23rem;
+
+    &__outer-container {
+        background-color: #313135;
+        height: 100%;
+        width: 23rem;
+        display: flex;
+        justify-content: right;
+        position: fixed;
+        padding: 1.25rem;
+        box-sizing: border-box;
+    }
+
+    &__inner-container {
+        border: 1px solid #80868A;
+        border-radius: 1rem;
+        padding: 1rem;
+        // height: 95%;
+    }
+
+    &__heading {
+        font-size: 2rem;
+        display: flex;
+        padding-top: 1rem;
+        width: 40%;
+    }
+
+    &__text--white {
+        color: #ffffff;
+    }
+
+    &__subheading {
+        font-size: 1.3rem;
+    }
+
+    &__age-range-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 0.6rem;
+    }
+
+    &__age-range-button {
+        border: 1px solid #80868A;
+        border-radius: 45px;
+        padding: 0.5rem;
+        color: #ffffff;
+
+        &--active {
+            background-color: #80868A;
+        }
+    }
+
+    &__know-ai {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    &__know-ai-radio-button {
+        display: none;
+
+        &:checked + &__circle {
+            border-color: rgb(56, 56, 56);
+            background: #80868A;
+        } 
+
+        &__circle {
+            display: inline-block;
+            width: 13px;
+            height: 13px;
+            box-shadow: 0 0 0 1px #80868A; 
+            border-radius: 50%;
+            margin-right: 0.8rem;
+            border: 1px solid transparent;
+        }
+    }
+
+    &__continue-button button {
+        display: block;
+        margin: 5rem auto;
+        background-color: #BEBFBF;
+        border-radius: 0.5rem;
+        border: 0;
+        color: rgb(56, 56, 56);
+        text-align: center;
+        width: 10rem;
+        height: 5rem;
+        font-size: 24px;
+
+        &:hover {
+            background-color: #8BA9F3;
+        }
+    }
+  }
+
