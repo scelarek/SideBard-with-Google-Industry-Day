@@ -43,26 +43,26 @@ Google posed the question:
     
 #### **Sidebard**
 
-</div>
-
 **Sidebard** is a sidebar for all Google Suite Products that is empowered with AI. This sidebar will feature an advanced chatbot that sources information directly from Google's extensive help resources and usage guidelines to answer user queries and elevate their product experience. More than just a tool, it would symbolize Google's commitment to user education and mastery in the era of AI-driven innovations.
+
+</div>
 
 ---
 
 Here's a quick demo of our chatbot's abilities and we invite you to play with it in this notebook (dependencies are `function_source` and `google_docs.csv`):
 
-**Question:**  
-How to sum all the costs of this store in sheets?
+>>> **Question:**
+>>> How to sum all the costs of this store in sheets?
 
-**Answer:**  
-Hello Samir! To sum all the costs of a store in Google Sheets, you can use the SUM function. Here's how you can do it:
+>>> **Answer:**
+>>> Hello Samir! To sum all the costs of a store in Google Sheets, you can use the SUM function. Here's how you can do it:
+>>> - Select the cell where you want the sum to appear.
+>>> - Type "=SUM(" in the cell.
+>>> - Select the range of cells that contain the costs you want to sum.
+>>> - Close the parentheses ")" and press Enter.
+>>> 
+>>> For example, if the costs are in cells A1 to A10, you would enter "=SUM(A1:A10)" in the cell. This will calculate the sum of all the costs in the specified range and display the result in the selected cell.
 
-- Select the cell where you want the sum to appear.
-- Type "=SUM(" in the cell.
-- Select the range of cells that contain the costs you want to sum.
-- Close the parentheses ")" and press Enter.
-
-For example, if the costs are in cells A1 to A10, you would enter "=SUM(A1:A10)" in the cell. This will calculate the sum of all the costs in the specified range and display the result in the selected cell.
 
 ---
 
