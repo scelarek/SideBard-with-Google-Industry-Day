@@ -1,10 +1,7 @@
-Here's a beautified version of the provided content:
-
----
-
 <div align="center">
 
-# **BrainStation Industry Day with Google**
+# **SideBard from Team AInsight**
+## **BrainStation Industry Day with Google**
 
 </div>
 
@@ -53,7 +50,7 @@ Here's a quick demo of our chatbot's abilities and we invite you to play with it
 
 > **Question:**
 > How to sum all the costs of this store in sheets?
-
+>
 > **Answer:**
 > Hello Samir! To sum all the costs of a store in Google Sheets, you can use the SUM function. Here's how you can do it:
 > - Select the cell where you want the sum to appear.
