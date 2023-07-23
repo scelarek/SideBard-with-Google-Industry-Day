@@ -67,19 +67,18 @@ We appreciate your interest in our project and invite you to explore our work. I
 
 </div>
 
+
 Directory to Important Resources
 
-Presentation
-[Figma File]([url](https://www.figma.com/file/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?type=design&mode=design))
-[Figma Prototype]([url](https://www.figma.com/proto/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?page-id=6%3A3&type=design&node-id=18-212&viewport=-1347%2C379%2C0.56&t=ZOkx9GZUwVS9qznG-1&scaling=min-zoom&starting-point-node-id=18%3A212&mode=design)https://www.figma.com/proto/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?page-id=6%3A3&type=design&node-id=18-212&viewport=-1347%2C379%2C0.56&t=ZOkx9GZUwVS9qznG-1&scaling=min-zoom&starting-point-node-id=18%3A212&mode=design)
-[Chatbot Creation]([url](https://github.com/scelarek/Google-Industry-Day/blob/41b6693190884a25d7b7ec6194c5ed9ef48c6ebf/SideBard%20Chatbot/Question%20Embedding%20and%20Search.ipynb))
-[Document Dataset Embedding]([url](https://github.com/scelarek/Google-Industry-Day/blob/41b6693190884a25d7b7ec6194c5ed9ef48c6ebf/SideBard%20Chatbot/Document%20Embedding.ipynb))
-Market Research Document
-KPIs with PowerBI
-Web Developer Work
+[Presentation](https://github.com/scelarek/Google-Industry-Day/blob/25d528dd0d837df1556b17c82964b20aea0d98db/Google%20-%20Industry%20Project%20-%20Team%207.pdf)
+[Figma File](https://www.figma.com/file/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?type=design&mode=design)
+[Figma Prototype](https://www.figma.com/proto/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?page-id=6%3A3&type=design&node-id=18-212&viewport=-1347%2C379%2C0.56&t=ZOkx9GZUwVS9qznG-1&scaling=min-zoom&starting-point-node-id=18%3A212&mode=design)
+[Chatbot Creation](https://github.com/scelarek/Google-Industry-Day/blob/41b6693190884a25d7b7ec6194c5ed9ef48c6ebf/SideBard%20Chatbot/Question%20Embedding%20and%20Search.ipynb)
+[Document Dataset Embedding](https://github.com/scelarek/Google-Industry-Day/blob/41b6693190884a25d7b7ec6194c5ed9ef48c6ebf/SideBard%20Chatbot/Document%20Embedding.ipynb)
+[Market Research Document](https://github.com/scelarek/Google-Industry-Day/blob/25d528dd0d837df1556b17c82964b20aea0d98db/Market%20Research/General%20Questions%20about%20AI%20and%20Uses.pdf)
+KPIs with PowerBI (to be linked later)
+Web Developer Work (to be linked later)
 
-Find the Figma File Here 
 
-Find the Figma Prototype Here
 
 
