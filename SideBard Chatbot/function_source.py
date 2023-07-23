@@ -20,17 +20,14 @@ warnings.filterwarnings('ignore')
 EMBEDDING_MODEL = "text-embedding-ada-002"
 GPT_MODEL = "gpt-3.5-turbo"
 
-# API configuration
-openai.api_key = OPEN_AI_KEY
-
-# for LangChain
-os.environ["OPENAI_API_KEY"] = OPEN_AI_KEY
 
 # get the answer from the response
 df = pd.read_csv('google_docs.csv')
 
 # convert embeddings from CSV str type back to list type
 df['embedding'] = df['embedding'].apply(ast.literal_eval)
+
+
 
 
 # search function
