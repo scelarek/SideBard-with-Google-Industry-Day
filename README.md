@@ -73,7 +73,7 @@ Here's a quick demo of the chatbot we customized for this purpose and we invite 
 
 #### SideBard's Presentation
 
-Please explore more of our work in this [presentation](https://www.canva.com/design/DAFo7IeXG7Q/DKpUBAYZl6BnwubPshKM3w/view?utm_content=DAFo7IeXG7Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink). Also there are more references to our market research, web app development, figma work, and KPI dashboard using PowerBI. 
+Please explore more of our work in this [presentation](https://www.canva.com/design/DAFo7IeXG7Q/DKpUBAYZl6BnwubPshKM3w/view?utm_content=DAFo7IeXG7Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink). You can also find our market research, web app development, figma work, and KPI dashboard using PowerBI in the reference section below. 
 
 ---
 
