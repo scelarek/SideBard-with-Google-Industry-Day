@@ -8,7 +8,7 @@ import os
 import openai
 import seaborn as sns
 import matplotlib.pyplot as plt
-from IPython.core.display import display, Markdown
+from IPython.display import Markdown
 import warnings
 from api_doc import *
 from matplotlib.collections import LineCollection
@@ -20,8 +20,7 @@ warnings.filterwarnings('ignore')
 EMBEDDING_MODEL = "text-embedding-ada-002"
 GPT_MODEL = "gpt-3.5-turbo"
 
-
-# get the answer from the response
+# # get the answer from the response
 df = pd.read_csv('google_docs.csv')
 
 # convert embeddings from CSV str type back to list type
@@ -154,3 +153,39 @@ def display_answer_in_markdown(question: str, category: str):
     ---
     """
     display(Markdown(markdown_output))
+
+
+def plot_relatedness(answers: pd.DataFrame, colors: list = ['blue', 'red', 'yellow', 'green']) -> None:
+    """
+    Plots the relatedness of documents to a query using a bar chart.
+    
+    Parameters:
+    - answers: A DataFrame with columns 'Relatedness' and 'Answer'.
+    - colors: A list of colors for the bars.
+    """
+    
+    # Define a set of colors and create a custom colormap
+    num_colors = len(colors)
+    bins = np.linspace(answers.Relatedness.min(), answers.Relatedness.max(), num_colors)
+    segment_colors = np.array([colors[np.digitize(val, bins=bins) - 1] for val in answers.Relatedness])
+
+    plt.figure(figsize=(10, 6))
+
+    # Create the bar plot
+    plt.bar(answers.index, answers.Relatedness, color=segment_colors, alpha=0.7)
+
+    # Beautify the plot
+    plt.title("Relatedness of Documents to Query", fontsize=16, fontweight='bold')
+    plt.xlabel("Documents", fontsize=14)
+    plt.ylabel("Relatedness (Cosine Similarity)", fontsize=14)
+    plt.grid(axis='y', which='both', linestyle='--', linewidth=0.5)
+    plt.xticks(ticks=answers.index, labels=answers['Answer'].str.split(',').str[0], rotation=90, ha='right')  # Set x-axis labels as the answers
+    plt.tight_layout()
+    plt.ylim(answers.Relatedness.min() * 0.95, answers.Relatedness.max() * 1.05)
+
+    # Display the plot
+    plt.show()
+
+# Usage example
+# plot_relatedness(answers_dataframe)
+
