@@ -53,7 +53,7 @@ Google posed the question:
 
 Here's a quick demo of our sidebar's aesthetics and we invite you to [Play with SideBard in this Figma Prototype](https://www.figma.com/proto/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?page-id=6%3A3&type=design&node-id=18-212&viewport=-1347%2C379%2C0.56&t=ZOkx9GZUwVS9qznG-1&scaling=min-zoom&starting-point-node-id=18%3A212&mode=design): 
 
-![image](https://github.com/scelarek/Google-Industry-Day/assets/115444760/776bb280-89b9-44ea-995f-964c895754ba)
+![Alt text](image.png)
 
 
 #### Chat with SideBard
