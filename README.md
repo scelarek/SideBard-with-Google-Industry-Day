@@ -45,9 +45,12 @@ Google posed the question:
 </div>
 
 
----
 
-Here's a quick demo of our chatbot's abilities and we invite you to [Chat with SideBard in this jupyter notebook](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/Play_with_Sidebard.ipynb) (dependencies are [function_source.py](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/function_source.py) and [google_docs.csv](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/google_docs.csv)):
+---
+### Demonstration of Product
+
+#### Chat with SideBard
+Here's a quick demo of the chatbot we customized for this purpose and we invite you to [Chat with SideBard in this jupyter notebook](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/Play_with_Sidebard.ipynb) (dependencies are [function_source.py](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/function_source.py) and [google_docs.csv](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/google_docs.csv)):
 
 > **Question:**
 > How to sum all the costs of this store in sheets?
@@ -61,9 +64,15 @@ Here's a quick demo of our chatbot's abilities and we invite you to [Chat with S
 > 
 > For example, if the costs are in cells A1 to A10, you would enter "=SUM(A1:A10)" in the cell. This will calculate the sum of all the costs in the specified range and display the result in the selected cell.
 
+#### See SideBard's Sidebar
+
 Here's a quick demo of our sidebar's aesthetics and we invite you to [Play with SideBard in this Figma Prototype](https://www.figma.com/proto/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?page-id=6%3A3&type=design&node-id=18-212&viewport=-1347%2C379%2C0.56&t=ZOkx9GZUwVS9qznG-1&scaling=min-zoom&starting-point-node-id=18%3A212&mode=design): 
 
 ![image](https://github.com/scelarek/Google-Industry-Day/assets/115444760/776bb280-89b9-44ea-995f-964c895754ba)
+
+#### SideBard's Presentation
+
+Please explore more of our work in this [presentation](https://www.canva.com/design/DAFo7IeXG7Q/DKpUBAYZl6BnwubPshKM3w/view?utm_content=DAFo7IeXG7Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink). Also there are more references to our market research, web app development, figma work, and KPI dashboard using PowerBI. 
 
 ---
 
