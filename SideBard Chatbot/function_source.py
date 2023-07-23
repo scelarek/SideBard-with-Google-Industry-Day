@@ -14,18 +14,23 @@ from matplotlib.collections import LineCollection
 import numpy as np
 import requests
 
+# Replace with the raw GitHub URL of the Python file
+import io
 
-from api_doc import *
+# Replace with the raw GitHub URL of the CSV file
+csv_url = "https://raw.githubusercontent.com/scelarek/Google-Industry-Day/95878152539660a5f5fe54659a2c226a0a075606/SideBard%20Chatbot/google_docs.csv"
+response = requests.get(csv_url)
 
-os.chdir('C:\\Users\\Samsickle\\Documents\\Google-Industry-Day-1\\SideBard Chatbot')
+# Use io.StringIO to convert the response content to a file-like object
+df = pd.read_csv(io.StringIO(response.text))
 
 
 # models
 EMBEDDING_MODEL = "text-embedding-ada-002"
 GPT_MODEL = "gpt-3.5-turbo"
 
-# # get the answer from the response
-df = pd.read_csv('google_docs.csv')
+# # # get the answer from the response
+# df = pd.read_csv('google_docs.csv')
 
 # convert embeddings from CSV str type back to list type
 df['embedding'] = df['embedding'].apply(ast.literal_eval)
