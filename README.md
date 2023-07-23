@@ -46,7 +46,7 @@ Google posed the question:
 
 ---
 
-Here's a quick demo of our chatbot's abilities and we invite you to play with it in this [notebook](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/Play_with_Sidebard.ipynb) (dependencies are [function_source.py](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/function_source.py) and [google_docs.csv](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/google_docs.csv)):
+Here's a quick demo of our chatbot's abilities and we invite you to [Chat with SideBard in this jupyter notebook](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/Play_with_Sidebard.ipynb) (dependencies are [function_source.py](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/function_source.py) and [google_docs.csv](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/google_docs.csv)):
 
 > **Question:**
 > How to sum all the costs of this store in sheets?
@@ -59,6 +59,9 @@ Here's a quick demo of our chatbot's abilities and we invite you to play with it
 > - Close the parentheses ")" and press Enter.
 > 
 > For example, if the costs are in cells A1 to A10, you would enter "=SUM(A1:A10)" in the cell. This will calculate the sum of all the costs in the specified range and display the result in the selected cell.
+
+Here's a quick demo of our sidebar's aesthetics and we invite you to [Play with SideBard in this Figma Prototype](https://www.figma.com/proto/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?page-id=6%3A3&type=design&node-id=18-212&viewport=-1347%2C379%2C0.56&t=ZOkx9GZUwVS9qznG-1&scaling=min-zoom&starting-point-node-id=18%3A212&mode=design): 
+
 
 
 ---
@@ -77,14 +80,13 @@ We appreciate your interest in our project and invite you to explore our work. I
 ### 📚 Directory to Important Resources
 
 - [Presentation](https://github.com/scelarek/Google-Industry-Day/blob/25d528dd0d837df1556b17c82964b20aea0d98db/Google%20-%20Industry%20Project%20-%20Team%207.pdf)
+- [Figma Prototype of SideBard](https://www.figma.com/proto/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?page-id=6%3A3&type=design&node-id=18-212&viewport=-1347%2C379%2C0.56&t=ZOkx9GZUwVS9qznG-1&scaling=min-zoom&starting-point-node-id=18%3A212&mode=design)
+- [Chat with SideBard](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/Play_with_Sidebard.ipynb) (dependencies are [function_source.py](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/function_source.py) and [google_docs.csv](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/google_docs.csv)):
+
+#### Other Resources: 
 - [Figma File](https://www.figma.com/file/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?type=design&mode=design)
-- [Figma Prototype](https://www.figma.com/proto/htu5k0wM0Xg3FJK4vGhh2C/Google---Industry-Project---Workspace?page-id=6%3A3&type=design&node-id=18-212&viewport=-1347%2C379%2C0.56&t=ZOkx9GZUwVS9qznG-1&scaling=min-zoom&starting-point-node-id=18%3A212&mode=design)
 - [Chatbot Creation](https://github.com/scelarek/Google-Industry-Day/blob/41b6693190884a25d7b7ec6194c5ed9ef48c6ebf/SideBard%20Chatbot/Question%20Embedding%20and%20Search.ipynb)
 - [Document Dataset Embedding](https://github.com/scelarek/Google-Industry-Day/blob/41b6693190884a25d7b7ec6194c5ed9ef48c6ebf/SideBard%20Chatbot/Document%20Embedding.ipynb)
 - [Market Research Document](https://github.com/scelarek/Google-Industry-Day/blob/25d528dd0d837df1556b17c82964b20aea0d98db/Market%20Research/General%20Questions%20about%20AI%20and%20Uses.pdf)
 - [KPIs with PowerBI](https://github.com/scelarek/Google-Industry-Day/blob/602753128eae5ddedd29862f191bc5d546b7e698/Market%20Research%20and%20KPIs/google.pbix)
 - [Web Developer Work](https://github.com/scelarek/Google-Industry-Day/tree/602753128eae5ddedd29862f191bc5d546b7e698/Web%20Dev%20Folder)
-
----
-
-I've made some adjustments to the formatting, added icons for visual appeal, and organized the content for a more streamlined presentation.
