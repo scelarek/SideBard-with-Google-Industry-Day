@@ -1,20 +1,32 @@
 # imports
 import ast  # for converting embeddings saved as strings back to arrays
-import openai  # for calling the OpenAI API
 import pandas as pd  # for storing text and embeddings data
 import tiktoken  # for counting tokens
 from scipy import spatial  # for calculating vector similarities for search
+from scipy import __version__ as scipy_version
 import os
 import openai
 import seaborn as sns
 import matplotlib.pyplot as plt
 from IPython.display import Markdown
-import warnings
-from api_doc import *
 from matplotlib.collections import LineCollection
 import numpy as np
+import requests
 
-warnings.filterwarnings('ignore')
+
+from api_doc import *
+
+os.chdir('C:\\Users\\Samsickle\\Documents\\Google-Industry-Day-1\\SideBard Chatbot')
+
+print("OpenAI version: ", openai.__version__)
+print("Pandas version: ", pd.__version__)
+print("Seaborn version: ", sns.__version__)
+print("Numpy version: ", np.__version__)
+print("Matplotlib version: ", plt.matplotlib.__version__)
+print("Scipy version: ", scipy_version)
+
+print('Other Libraries: requests, ast, tiktoken, os, IPython.display')
+
 
 # models
 EMBEDDING_MODEL = "text-embedding-ada-002"
