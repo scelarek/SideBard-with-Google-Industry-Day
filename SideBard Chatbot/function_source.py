@@ -2,6 +2,7 @@
 import ast  # for converting embeddings saved as strings back to arrays
 import pandas as pd  # for storing text and embeddings data
 import tiktoken  # for counting tokens
+import re  # for cleaning text
 from scipy import spatial  # for calculating vector similarities for search
 from scipy import __version__ as scipy_version
 import os
@@ -17,15 +18,6 @@ import requests
 from api_doc import *
 
 os.chdir('C:\\Users\\Samsickle\\Documents\\Google-Industry-Day-1\\SideBard Chatbot')
-
-print("OpenAI version: ", openai.__version__)
-print("Pandas version: ", pd.__version__)
-print("Seaborn version: ", sns.__version__)
-print("Numpy version: ", np.__version__)
-print("Matplotlib version: ", plt.matplotlib.__version__)
-print("Scipy version: ", scipy_version)
-
-print('Other Libraries: requests, ast, tiktoken, os, IPython.display')
 
 
 # models
@@ -201,3 +193,14 @@ def plot_relatedness(answers: pd.DataFrame, colors: list = ['blue', 'red', 'yell
 # Usage example
 # plot_relatedness(answers_dataframe)
 
+
+
+
+print("OpenAI version: ", openai.__version__)
+print("Pandas version: ", pd.__version__)
+print("Seaborn version: ", sns.__version__)
+print("Numpy version: ", np.__version__)
+print("Matplotlib version: ", plt.matplotlib.__version__)
+print("Scipy version: ", scipy_version)
+
+print('Other Libraries: requests, ast, tiktoken, os, IPython.display, re')
