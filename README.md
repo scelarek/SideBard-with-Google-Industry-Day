@@ -38,11 +38,12 @@ Google posed the question:
 
 <div align="center">
     
-#### **Sidebard**
+<h2><strong>Sidebard</strong></h2>
 
-**Sidebard** is a sidebar for all Google Suite Products that is empowered with AI. This sidebar will feature an advanced chatbot that sources information directly from Google's extensive help resources and usage guidelines to answer user queries and elevate their product experience. More than just a tool, it would symbolize Google's commitment to user education and mastery in the era of AI-driven innovations.
+<h3><strong>Sidebard</strong> is a sidebar for all Google Suite Products that are empowered with AI. This sidebar will feature an advanced chatbot that sources information directly from Google's extensive help resources and usage guidelines to answer user queries and elevate their product experience. More than just a tool, it would symbolize Google's commitment to user education and mastery in the era of AI-driven innovations.</h3>
 
 </div>
+
 
 ---
 
