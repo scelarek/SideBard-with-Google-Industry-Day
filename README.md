@@ -46,7 +46,7 @@ Google posed the question:
 
 ---
 
-Here's a quick demo of our chatbot's abilities and we invite you to play with it in this notebook (dependencies are `function_source` and `google_docs.csv`):
+Here's a quick demo of our chatbot's abilities and we invite you to play with it in this [notebook](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/Play_with_Sidebard.ipynb) (dependencies are [function_source.py](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/function_source.py) and [google_docs.csv](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/google_docs.csv)):
 
 > **Question:**
 > How to sum all the costs of this store in sheets?
