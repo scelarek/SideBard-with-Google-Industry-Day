@@ -35,7 +35,7 @@ Google posed the question:
 
 To address this challenge, we propose:
 <div align="center">
-##### **Sidebard**
+#### **Sidebard**
 
 **Sidebard** is a sidebar for all Google Suite Products that is empowered with AI. This sidebar will feature an advanced chatbot that sources information directly from Google's extensive help resources and usage guidelines to answer user queries and elevate their product experience. More than just a tool, it would symbolize Google's commitment to user education and mastery in the era of AI-driven innovations.
 </div>
