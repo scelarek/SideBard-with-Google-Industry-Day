@@ -57,7 +57,7 @@ Here's a quick demo of our sidebar's aesthetics and we invite you to [Play with 
 
 
 #### Chat with SideBard
-Here's a quick demo of the chatbot we customized for this purpose and we invite you to [Chat with SideBard in this jupyter notebook](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/Play_with_Sidebard.ipynb) (dependencies are [function_source.py](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/function_source.py) and [google_docs.csv](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/google_docs.csv)):
+Here's a quick demo of the chatbot we customized for this purpose and we invite you to [Chat with SideBard in this jupyter notebook](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/Play_with_Sidebard.ipynb) (library dependencies are in [function_source.py](https://github.com/scelarek/Google-Industry-Day/blob/5b08cff5c46dc07442bb57487b1c55183420c803/SideBard%20Chatbot/function_source.py):
 
 > **Question:**
 > How to sum all the costs of this store in sheets?
