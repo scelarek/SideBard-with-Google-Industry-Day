@@ -9,9 +9,7 @@
 
 ## 🌟 Introduction
 
-Welcome to our team's GitHub repository for the Google Industry Day competition hosted by BrainStation. We are a diverse team of data scientists, UI/UX designers, and web developers, united by our passion for innovation and our commitment to deliver a compelling digital solution to a real-world business problem.
-
----
+Welcome to our team's GitHub repository for the Google Industry Day competition hosted by BrainStation. Here is our diverse team of data scientists, UI/UX designers, and web developers:
 
 ### 🚀 Our Team
 
