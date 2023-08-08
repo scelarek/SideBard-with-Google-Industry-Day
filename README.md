@@ -9,7 +9,7 @@
 
 ## 🌟 Introduction
 
-Welcome to our team's GitHub repository for the Google Industry Day competition hosted by BrainStation. Here is our diverse team of data scientists, UI/UX designers, and web developers:
+Welcome to our team's GitHub repository for the Google Industry Day competition hosted by BrainStation. First I'd like to introduce you to our diverse team of data scientists, UI/UX designers, and web developers:
 
 ### 🚀 Our Team
 
@@ -26,7 +26,7 @@ Welcome to our team's GitHub repository for the Google Industry Day competition 
 
 ### 🤔 The Challenge
 
-Google posed the question:
+We were given the following problem by Google to solve:
 
 > "How might we educate users of new AI-related features becoming a part of a product, while maintaining user trust and avoiding misunderstandings about AI?"
 
