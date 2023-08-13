@@ -1,6 +1,9 @@
 <div align="center">
 
 # **SideBard from Team AInsight**
+<img src="https://github.com/scelarek/Google-Industry-Day/assets/115444760/e1c922dc-76e8-4714-9752-23c3d3df22a3"  title="SideBard" alt="SideBard" width="150" height="150"> 
+
+
 ## **BrainStation Industry Day with Google**
 
 </div>
